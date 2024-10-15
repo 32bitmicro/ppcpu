@@ -8,7 +8,7 @@ module soc_rom (
 reg [31:0] instr [127:0];
 
 initial begin
-    $readmemh("/home/piotro/pcpu2/soc/bootloader.hex", instr);
+    $readmemh("bootloader.hex", instr);
 end
 
 always @* begin
