@@ -13,7 +13,6 @@ reg irq;
 
 initial irq = 1'b0;
 initial scancode = 8'hFF;
-reg [3:0] bit = 4'b0;
 reg [10:0] code_shift;
  
 wire db_clk;
