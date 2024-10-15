@@ -1,0 +1,2 @@
+FPGA=hx8k
+PACKAGE=cb132

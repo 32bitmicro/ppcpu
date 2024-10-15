@@ -1,0 +1,3 @@
+FPGA=hx1k
+ICE40="--hx1k"
+PACKAGE="tq144"
